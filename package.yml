@@ -1,0 +1,16 @@
+name       : python-gmpy
+version    : 1.17
+release    : 1
+source     :
+    - https://github.com/aleaxit/gmpy/archive/gmpy_1_17.tar.gz : 3962083fa93635dcaff05e92315bfdb12ca824612d13567c0e4e0cf8c66b984f
+license    : LGPL-2.1
+component  : programming.python
+summary    : General MultiPrecision arithmetic for Python
+description: |
+    General MultiPrecision arithmetic for Python
+builddeps  :
+    - python-setuptools
+build      : |
+    %python_setup
+install    : |
+    %python_install

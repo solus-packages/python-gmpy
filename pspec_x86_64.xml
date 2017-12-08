@@ -1,0 +1,35 @@
+<PISI>
+    <Source>
+        <Name>python-gmpy</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <License>LGPL-2.1</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">General MultiPrecision arithmetic for Python</Summary>
+        <Description xml:lang="en">General MultiPrecision arithmetic for Python
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-gmpy</Name>
+        <Summary xml:lang="en">General MultiPrecision arithmetic for Python</Summary>
+        <Description xml:lang="en">General MultiPrecision arithmetic for Python
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gmpy-1.17-py2.7.egg-info</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gmpy.so</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-12-08</Date>
+            <Version>1.17</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
